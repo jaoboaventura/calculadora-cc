@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Calculadora de Cilindradas</title>
+</head>
+<body>
+    
+    <main>
+
+        <section class="inputs">
+
+            <h2>Calculadadra de Cilindradas</h2>
+            <div class="inputscaixas">
+                <input type="number" id="cursoPistao" placeholder="Insira o valor, em mm, do curso do pistão:">
+                <input type="number" id="diametroPistao" placeholder="Insira o valor, em mm, do diâmetro do pistão:">
+                <input type="number" id="qtdCilindros" placeholder="Insira a quantidade de cilindros da sua moto (1, 2, 3 ou 4):">
+            </div>
+            <button onclick="calcularCilindrada()">Calcular</button>
+        </section>
+
+        <section class="resultado">
+            <div id="resultadoCilindradasTotais"></div>
+        </section>
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
